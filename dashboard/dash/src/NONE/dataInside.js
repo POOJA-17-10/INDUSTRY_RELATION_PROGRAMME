@@ -1,0 +1,35 @@
+// src/dataInside.js
+const data = [
+    { id: 1, department: 'Computer Science', lecturer: 'Dr. A', program: 'Workshop on AI', students: 50, venue: 'SF Seminar Hall 1', mode: 'Online', date: '2023-08-12' },
+    { id: 2, department: 'Mechanical Engineering', lecturer: 'Dr. B', program: 'Seminar on Robotics', students: 30, venue: 'Mechanical Seminar Hall', mode: 'Offline', date: '2023-07-20' },
+    { id: 3, department: 'Electrical Engineering', lecturer: 'Dr. C', program: 'Conference on Renewable Energy', students: 100, venue: 'Vedanayagam Auditorium', mode: 'Online', date: '2023-06-25' },
+    { id: 4, department: 'Civil Engineering', lecturer: 'Dr. D', program: 'Workshop on Urban Planning', students: 40, venue: 'SF Seminar Hall 2', mode: 'Offline', date: '2023-09-05' },
+    { id: 5, department: 'Electronics and Communication', lecturer: 'Dr. E', program: 'Seminar on Signal Processing', students: 60, venue: 'Textile Seminar Hall', mode: 'Online', date: '2023-07-15' },
+    { id: 6, department: 'Information Technology', lecturer: 'Dr. F', program: 'Workshop on Cybersecurity', students: 75, venue: 'SF Seminar Hall 3', mode: 'Offline', date: '2023-08-18' },
+    { id: 7, department: 'Biotechnology', lecturer: 'Dr. G', program: 'Conference on Genetic Engineering', students: 80, venue: 'SF Seminar Hall 1', mode: 'Online', date: '2023-07-22' },
+    { id: 8, department: 'Physics', lecturer: 'Dr. H', program: 'Seminar on Quantum Mechanics', students: 25, venue: 'SF Seminar Hall 2', mode: 'Offline', date: '2023-06-10' },
+    { id: 9, department: 'Chemistry', lecturer: 'Dr. I', program: 'Workshop on Nanotechnology', students: 45, venue: 'SF Seminar Hall 3', mode: 'Online', date: '2023-09-02' },
+    { id: 10, department: 'Mathematics', lecturer: 'Dr. J', program: 'Seminar on Advanced Calculus', students: 55, venue: 'Mechanical Seminar Hall', mode: 'Offline', date: '2023-07-11' },
+    { id: 11, department: 'Statistics', lecturer: 'Dr. K', program: 'Workshop on Data Analysis', students: 70, venue: 'Aero Seminar Hall', mode: 'Online', date: '2023-08-30' },
+    { id: 12, department: 'Environmental Engineering', lecturer: 'Dr. L', program: 'Seminar on Sustainable Development', students: 65, venue: 'Vedanayagam Auditorium', mode: 'Offline', date: '2023-06-05' },
+    { id: 13, department: 'Medical Science', lecturer: 'Dr. M', program: 'Conference on Healthcare Innovations', students: 85, venue: 'SF Seminar Hall 1', mode: 'Online', date: '2023-07-18' },
+    { id: 14, department: 'Architecture', lecturer: 'Dr. N', program: 'Workshop on Modern Architecture', students: 90, venue: 'Textile Seminar Hall', mode: 'Offline', date: '2023-08-05' },
+    { id: 15, department: 'Automobile Engineering', lecturer: 'Dr. O', program: 'Seminar on Electric Vehicles', students: 55, venue: 'SF Seminar Hall 2', mode: 'Online', date: '2023-09-12' },
+    { id: 16, department: 'Civil Engineering', lecturer: 'Dr. P', program: 'Workshop on Construction Techniques', students: 50, venue: 'Mechanical Seminar Hall', mode: 'Offline', date: '2023-08-28' },
+    { id: 17, department: 'Genetics', lecturer: 'Dr. Q', program: 'Conference on Genetic Research', students: 60, venue: 'SF Seminar Hall 3', mode: 'Online', date: '2023-07-25' },
+    { id: 18, department: 'Economics', lecturer: 'Dr. R', program: 'Seminar on Economic Trends', students: 40, venue: 'Vedanayagam Auditorium', mode: 'Offline', date: '2023-08-14' },
+    { id: 19, department: 'Psychology', lecturer: 'Dr. S', program: 'Workshop on Behavioral Studies', students: 35, venue: 'SF Seminar Hall 1', mode: 'Online', date: '2023-09-01' },
+    { id: 20, department: 'Engineering Physics', lecturer: 'Dr. T', program: 'Conference on Applied Physics', students: 45, venue: 'Aero Seminar Hall', mode: 'Offline', date: '2023-07-17' },
+    { id: 21, department: 'Agricultural Engineering', lecturer: 'Dr. U', program: 'Workshop on Precision Farming', students: 50, venue: 'Mechanical Seminar Hall', mode: 'Online', date: '2023-08-22' },
+    { id: 22, department: 'Software Engineering', lecturer: 'Dr. V', program: 'Seminar on Software Development Life Cycle', students: 65, venue: 'SF Seminar Hall 2', mode: 'Offline', date: '2023-06-11' },
+    { id: 23, department: 'Physics', lecturer: 'Dr. W', program: 'Conference on Particle Physics', students: 75, venue: 'Textile Seminar Hall', mode: 'Online', date: '2023-09-10' },
+    { id: 24, department: 'Chemistry', lecturer: 'Dr. X', program: 'Workshop on Organic Chemistry', students: 40, venue: 'SF Seminar Hall 3', mode: 'Offline', date: '2023-06-20' },
+    { id: 25, department: 'Mathematics', lecturer: 'Dr. Y', program: 'Seminar on Differential Equations', students: 55, venue: 'Aero Seminar Hall', mode: 'Online', date: '2023-08-15' },
+    { id: 26, department: 'Mechanical Engineering', lecturer: 'Dr. Z', program: 'Workshop on Thermodynamics', students: 70, venue: 'Vedanayagam Auditorium', mode: 'Offline', date: '2023-09-09' },
+    { id: 27, department: 'Civil Engineering', lecturer: 'Dr. AA', program: 'Seminar on Structural Analysis', students: 45, venue: 'SF Seminar Hall 1', mode: 'Online', date: '2023-07-29' },
+    { id: 28, department: 'Biotechnology', lecturer: 'Dr. BB', program: 'Workshop on Biochemical Engineering', students: 60, venue: 'Textile Seminar Hall', mode: 'Offline', date: '2023-06-16' },
+    { id: 29, department: 'Electrical Engineering', lecturer: 'Dr. CC', program: 'Conference on Power Systems', students: 80, venue: 'SF Seminar Hall 2', mode: 'Online', date: '2023-08-03' },
+    { id: 30, department: 'Information Technology', lecturer: 'Dr. DD', program: 'Seminar on Cloud Computing', students: 90, venue: 'Aero Seminar Hall', mode: 'Offline', date: '2023-09-17' }
+];
+
+export default data;

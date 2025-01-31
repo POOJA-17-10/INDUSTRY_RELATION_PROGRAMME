@@ -1,0 +1,126 @@
+/* General table styles */
+.custom-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif; /* Clean, readable font */
+}
+
+/* Table header and cell styling */
+.custom-table th,
+.custom-table td {
+    padding: 8px 10px; /* Reduced padding for smaller rows */
+    text-align: center;
+    border: 1px solid #ccc; /* Light border for cells */
+}
+
+/* Header styling */
+.custom-table th {
+    background-color: #480260; /* Violet background for headers */
+    font-weight: bold;
+    color: #fff; /* White text for headers */
+    font-size: 14px; /* Smaller font size for headers */
+}
+
+/* Alternating row colors */
+.custom-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+.custom-table tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+/* Hover effect for rows */
+.custom-table tr:hover {
+    background-color: #e0e0e0; /* Slightly darker grey on hover */
+}
+
+/* Adjust font size for table content */
+.custom-table td {
+    font-size: 13px; /* Smaller font size for table content */
+}
+
+/* Pagination styling */
+.pagination {
+    margin-top: 20px;
+    text-align: center; /* Center the pagination controls */
+}
+
+/* Pagination buttons */
+.pagination button {
+    background-color: #480260; /* Match the table header color */
+    color: #fff;
+    border: 1px solid #480260;
+    padding: 8px 12px; /* Adjust padding for smaller buttons */
+    margin: 0 5px; /* Space between buttons */
+    cursor: pointer;
+    font-size: 14px; /* Font size for buttons */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Active button style */
+.pagination button.active {
+    background-color: #333;
+}
+
+/* Disabled button style */
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Hover effect */
+.pagination button:hover:not(:disabled) {
+    background-color: #333;
+}
+
+/* Search container styling */
+.search-container {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.search-input {
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Adjust width as needed */
+}
+
+.search-input:focus {
+    border-color: #480260; /* Match search input focus border with header color */
+    outline: none;
+}
+/* Update Button Style */
+.update-button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .update-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Clear Button Style */
+  .clear-button {
+    background-color: #f44336; /* Red color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .clear-button:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }

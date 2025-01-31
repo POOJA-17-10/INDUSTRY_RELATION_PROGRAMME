@@ -1,0 +1,39 @@
+.committee-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .committee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .committee-table thead th {
+    background-color: #480260; /* Violet background for header */
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .committee-table tbody td {
+    background-color: white; /* White background for body rows */
+    color: black;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .committee-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for alternate rows */
+  }
+  
+  .committee-table tbody tr:hover {
+    background-color: #ddd; /* Hover effect */
+  }
+  
